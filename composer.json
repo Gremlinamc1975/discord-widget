@@ -1,5 +1,5 @@
 {
-  "name": "Gremlinamc1975/discord-widget",
+  "name": "gremlinamc1975/discord-widget",
   "description": "A Flarum extension to show a Discord widget on the right side",
   "type": "flarum-extension",
   "keywords": ["flarum", "discord"],
