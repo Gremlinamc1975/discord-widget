@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Gremlinamc1975\\DiscordWidget\\": "src/"
+      "gremlinamc1975\\DiscordWidget\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Gremlinamc1975\\DiscordWidget\\Tests\\": "tests/"
+      "gremlinamc1975\\DiscordWidget\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
