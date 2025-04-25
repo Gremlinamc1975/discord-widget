@@ -33,6 +33,6 @@
       "YourName\\DiscordWidget\\Tests\\": "tests/"
     }
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
