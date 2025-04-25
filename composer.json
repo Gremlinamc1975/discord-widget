@@ -1,0 +1,38 @@
+{
+  "name": "yourname/discord-widget",
+  "description": "A Flarum extension to show a Discord widget on the right side",
+  "type": "flarum-extension",
+  "keywords": ["flarum", "discord"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "you@example.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Discord Widget",
+      "icon": {
+        "name": "fas fa-discord",
+        "backgroundColor": "#7289da",
+        "color": "#fff"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "YourName\\DiscordWidget\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "YourName\\DiscordWidget\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true
+}
